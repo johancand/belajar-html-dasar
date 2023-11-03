@@ -21,6 +21,7 @@
       <li><a href="#materi5">Image</a></li>
       <li><a href="#materi6">Table</a></li>
       <li><a href="#materi7">Table Merging</a></li>
+      <li><a href="#materi8">Membuat Form</a></li>
     </ol>
     <!-- End Pembuka -->
 
@@ -91,7 +92,7 @@ ini br.
 
 <p>Pada materi ini kita akan membahas tentang bagaimana cara membuat table sederhana</p>
 
-<table border="1" cellspacing="0">
+<table border="1" cellspacing="0" style="text-align: center;" cellpadding="10">
   <thead>
     <tr>
       <th>Judul 1</th>
@@ -143,13 +144,11 @@ ini br.
 
 <p>Contoh 3:</p>
 
-<Table border="1" cellspacing="0">
+<Table border="1" cellspacing="0" cellpadding="10">
   <thead>
     <tr>
-      <th></th>
-      <th></th>
-      <th>AAA</th>
-      <th>BBB</th>
+      <th colspan="2">AA</th>
+      <th colspan="3">BBB</th>
     </tr>
   </thead>
   <tbody>
@@ -174,7 +173,65 @@ ini br.
 
 <!-- Materi 7 -->
 <h2>7. Table Merging</h2>
-Pada artikel ini kita akan membahas table merging, atau menggabungkan dua cell atau lebih.
+<p>Pada artikel ini kita akan membahas table merging, atau menggabungkan dua cell atau lebih.</p>
+
+<table border="1" cellspacing="0" cellpadding="10">
+  <tr>
+    <td>AAA</td>
+    <td>BBB1</td>
+    <td>CCC</td>
+    <td>DDD</td>
+  </tr>
+  <tr>
+    <td>EEE</td>
+    <td colspan="2" rowspan="2" style="text-align: center;">OKOK</td>
+    <td>EEE</td>
+  </tr>
+  <tr>
+    <td>EEE</td>
+    <td>EEE</td>
+  </tr>
+  <tr>
+    <td>AAA</td>
+    <td>BBB2</td>
+    <td>CCC</td>
+    <td>DDD</td>
+  </tr>
+</table>
+
+<!-- Materi 8 -->
+<h2 id="materi8">8. Membuat Form</h2>
+<p>Pada artikel ini kita akan membahas tentang bagaimana cara membuat form.</p>
+<form>
+  <label for="username">User Name:</label>
+  <input type="text" id="username">
+    <br>
+  <label for="pass">Password: </label>
+  <input type="password" id="pass">
+    <br>
+  <input type="radio" id="pria" name="sex">
+  <label for="pria">Pria</label>
+  <input type="radio" id="wanita" name="sex">
+  <label for="wanita">Wanita</label>
+    <br>
+  <input type="checkbox" name="hobi" id="menyanyi">
+  <label for="mennyanyi">Menyanyi</label>
+  <input type="checkbox" name="hobi" id="Memasak">
+  <label for="memasak">Menyanyi</label>
+  <input type="checkbox" name="hobi" id="olah">
+  <label for="olah">Olah Raga</label>
+   <br>
+  <textarea name="" id="" cols="10" rows="5"></textarea>
+   <br>
+  <select name="" id="">
+    <option value="">Aku Kamu</option>
+    <option value="">Kata</option>
+    <option value="">Kaki</option>
+    <option value="">Mata</option>
+    <option value="">Kiri</option>
+  </select>
+  <button type="submit">Kirim</button>
+</form>
 
 <br><br><br><br><br>
 <br><br><br><br><br>
