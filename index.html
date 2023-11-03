@@ -14,22 +14,22 @@
     <p>Pada kali ini kita akan membahas tentang bagaimana cara membuat html dasar.</p>
     <p>Daftar Isi:</p>
     <ol>
-      <li>Materi Belajar</li>
-      <li>Paragraf</li>
-      <li>Heading</li>
-      <li>Membuat Link</li>
-      <li>Image</li>
-      <li>Table</li>
-      <li>Table Merging</li>
+      <li><a href="#materi1">Materi Belajar</a></li>
+      <li><a href="#materi2">Paragraf</a></li>
+      <li><a href="#materi3">Heading</a></li>
+      <li><a href="#materi4">Membuat Link</a></li>
+      <li><a href="#materi5">Image</a></li>
+      <li><a href="#materi6">Table</a></li>
+      <li><a href="#materi7">Table Merging</a></li>
     </ol>
     <!-- End Pembuka -->
 
     <!-- Materi 1 -->
-    <h2>1. Materi Belajar</h2>
+    <h2 id="materi1">1. Materi Belajar</h2>
     <p>Berikut ini adalah materi yang akan kita bahas.</p>
 
     <!-- Materi 2 -->
-    <h2>2. Paragraf</h2>
+    <h2 id="materi2">2. Paragraf</h2>
 <p>Ini adalah paragraf.</p>
 <i>Italic.</i>
 <B>bold</B>
@@ -41,7 +41,7 @@ ini br.
 </p>
 
     <!-- Materi 3 -->
-    <h2>3. Heading</h2>
+    <h2 id="materi3">3. Heading</h2>
     Heading digunakan untuk menandakan judul dan subjudul seperti berikut:
     <ul>
       <h1>Contoh H1</h1>
@@ -55,7 +55,7 @@ ini br.
     <p>Dan bisa digunkan untuk membuat TOC.</p>
 
     <!-- Materi 4 -->
-    <h2>4. Membuat Link</h2>
+    <h2 id="materi3">4. Membuat Link</h2>
     <P>Hyperlink atau link dibedakan menjadi 2, yakni:</P>
     <ol>
         <li>Internal Link</li>
@@ -68,12 +68,113 @@ ini br.
     <p><a href="internal-link/halaman-3.html">Click di sini</a> untuk pindah ke halaman 3.</p>
   </li>
   </ul>
+
     <h3>B. Eksternal Link</h3>
     <p>Eksternal link harus dibuat dengan menggunakan protokol HTTP, misalnya href="http://google.com".</p>
     <p>Contoh:</p>
     <p><a href="http://google.com">Klik di sini</a> untuk pindah ke Google.</p>
 
+<h3>C. Table of Content (TOC)</h3>
+<p>Dibuat dengan menggunakan id.</p><b>Done ya!</b>
 
+<h2 id="materi5">5. Image</h2>
+
+<p>Tab image dibuat dengan menggunakan tag image.</p>
+<p>Berikut ini contohnya:</p>
+<img src="img/logo han kreatif 3 (1).png" alt="logo han kreatif" width="100">
+<p>Ini untuk img sebagai link:</p>
+<p>Klik arah berikut untuk pergi ke halaman 2:</p>
+<a href="halaman-2.html"><img src="img/pindah1.webp" alt="pindah" width="100"></a>
+
+<!-- Materi 6 -->
+<h2 id="materi6">6. Table</h2>
+
+<p>Pada materi ini kita akan membahas tentang bagaimana cara membuat table sederhana</p>
+
+<table border="1" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Judul 1</th>
+      <th>Judul 2</th>
+      <th>Judul 3</th>
+      <th>Judul 4</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Baris 1, Kolom 1</td>
+    <td>Baris 1, Kolom 2</td>
+    <td>Baris 1, Kolom 3</td>
+    <td>Baris 1, Kolom 4</td>
+  </tr>
+  <tr>
+    <td>Baris 2, Kolom 1</td>
+    <td>Baris 2, Kolom 2</td>
+    <td>Baris 2, Kolom 3</td>
+    <td>Baris 2, Kolom 4</td>
+  </tr>
+</table>
+
+<p>Contoh 2:</p>
+
+<Table border="1" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Naman</th>
+      <th>Nomor</th>
+      <th>Alamat</th>
+      <th>Jalan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Johan</th>
+      <td>1</td>
+      <td>Kelapa </td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <th>Agung</th>
+      <td>2</td>
+      <td>Tuhuh</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</Table>
+
+<p>Contoh 3:</p>
+
+<Table border="1" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th>AAA</th>
+      <th>BBB</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>CCC</th>
+      <td>Johan</td>
+      <td>Candra</td>
+      <td>Untung</td>
+      <td>Nanda</td>
+    </tr>
+    <tr>
+    <tr>
+      <th>DDD</th>
+      <td>Johan</td>
+      <td>Candra</td>
+      <td>Untung</td>
+      <td>Nanda</td>
+    </tr>
+    <tr>
+  </tbody>
+</Table>
+
+<!-- Materi 7 -->
+<h2>7. Table Merging</h2>
+Pada artikel ini kita akan membahas table merging, atau menggabungkan dua cell atau lebih.
 
 <br><br><br><br><br>
 <br><br><br><br><br>
